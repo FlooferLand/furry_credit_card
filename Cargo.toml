@@ -1,0 +1,18 @@
+[package]
+name = "furry_credit_card"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+native-windows-gui = "1.0.12"
+native-windows-derive = "1.0.3"
+
+[build-dependencies]
+embed-resource = "2.4.2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"

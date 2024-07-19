@@ -1,0 +1,8 @@
+#define RT_MANIFEST 24
+1 RT_MANIFEST "embed_resources.exe.manifest"
+
+MAIN_ICON ICON "./res/icon.ico"
+
+CUTE_IMAGE BITMAP "./res/cute_image.bmp"
+
+MEOW_SOUND WAVE "./res/meow.wav"
